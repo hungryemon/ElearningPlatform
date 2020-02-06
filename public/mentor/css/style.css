@@ -1,0 +1,228 @@
+a{
+    color: inherit;
+}
+
+a:hover,
+a:active,
+a:focus {
+    text-decoration: none;
+    color: inherit;
+}
+
+iframe{
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+
+/*==========================
+    createCourse.html
+=============================*/
+
+.page-footer {
+    background-color: white;
+    height: 40px;
+    padding: 12px 20px;
+    position: absolute;
+    bottom: 20px;
+    width: 83%;
+}
+
+.form-group {
+    margin-bottom: 30px;
+}
+
+.label-addition {
+    margin-bottom: 10px;
+}
+
+#image-upload input,
+.upload-video input,
+#zip-upload input{
+    display: none;
+}
+
+#image-upload label,
+.upload-video label {
+    border: 1px solid #3598dc;
+    background-color: #3598dc;
+    padding: 10px;
+    color: white;
+    cursor: pointer;
+}
+
+.video-thumbnail {
+    margin-bottom: 20px;
+    /*    width: 100%;*/
+}
+
+.portlet.light {
+    overflow: auto;
+}
+
+.loading-message {
+    margin: 0 -40px;
+    width: 160px;
+    padding: 13px;
+}
+
+.bootstrap-tagsinput .tag [data-role="remove"]:hover {
+    box-shadow: none;
+}
+
+.bootstrap-tagsinput {
+    width: 100%;
+    font-size: 18px;
+    padding: 12px 12px;
+}
+
+.right-content-wrapper {
+    margin-bottom: 70px
+}
+
+#image-upload .img-thumbnail {
+    margin-bottom: 20px;
+    width: 100%;
+    height: 220px;
+}
+
+
+/*==========================
+    content.html
+=============================*/
+
+.blog-content-1 .blog-post-content {
+    min-height: 210px;
+    position: relative;
+}
+
+.blog-content-1 .blog-post-sm>.blog-post-content>.blog-post-foot {
+    position: absolute;
+    bottom: 25px;
+}
+
+.blog-page .blog-container{
+    transition: all 0.4s ease-in-out;
+}
+
+.blog-page .blog-container:hover {
+    -webkit-box-shadow: 0px 0px 18px -4px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 0px 18px -4px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 0px 18px -4px rgba(0, 0, 0, 0.75);
+}
+
+
+/*==========================
+    courseContent.html
+=============================*/
+
+.btn.grey-salt:not(.btn-outline){
+    background-color: #e7505a;
+    border: 1px solid #e7505a;
+    transition: all 0.2s ease-in-out;
+}
+
+.btn.grey-salt:not(.btn-outline).active, .btn.grey-salt:not(.btn-outline):focus, .btn.grey-salt:not(.btn-outline):hover, .btn.grey-salt:not(.btn-outline):visited{
+    background-color: #e7505a;
+    border: 1px solid #e7505a;
+    opacity: 0.8;
+}
+
+.modal .modal-dialog{
+    margin-top: 200px;
+}
+
+.chapter-title h2{
+    margin-bottom: 20px;
+}
+
+.chapter-lesson{
+    margin-top: 20px;
+    opacity: 0.6;
+}
+
+.courseLesson{
+    margin-top: -10px;;
+}
+
+.courseLesson a{
+    margin-left: 15px;
+}
+
+/*==========================
+    courseContent.html
+=============================*/
+
+#zip-upload label{
+    margin-bottom: 20px;
+}
+
+/*===========================
+        Login.html
+==========================*/
+
+.user-login-5 .login-container>.login-content{
+    margin-top: 5%;
+}
+
+.user-login-5 .login-container>.login-content .login-form .forgot-password, .user-login-5 .login-container>.login-content .login-form .login-button{
+    display: inline-block;
+    margin: 0px 15px;
+}
+
+.user-login-5 .login-container .login-content .login-form .forgot-password a{
+    color: #a4aab2;
+    font-size: 15px;
+    vertical-align: middle;
+}
+
+.user-login-5 .login-container>.login-content .login-form{
+    color: black;
+    margin-top: 150px;
+}
+
+.signUp a{
+    font-size: 15px;
+    font-weight: bolder;
+    vertical-align: middle;
+}
+
+.social-login{
+    margin-top: 50px;
+}
+
+.social-login button{
+    padding: 15px 40px;
+    width: 400px;
+    margin: 20px auto;
+    display: block;
+    border: 1px solid transparent;
+    transition: all 0.2s ease-in-out;
+}
+
+.social-login button:hover{
+    border: 1px solid transparent;
+    opacity: 0.9;
+}
+
+#facebook-button{
+    background-color: #3b5998;
+    color: white;
+}
+
+#google-button{
+    background-color: #d34836;
+    color: white;
+}
+
+.errors{
+    margin-top: -60px;
+}
+
+.errors .alert-warning{
+    margin-top: 0px;
+}
+
+.blockUI.blockMsg.blockElement{
+    top: 270px !important;
+}
